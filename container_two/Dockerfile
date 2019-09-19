@@ -1,4 +1,4 @@
 FROM debian:buster-slim
-VOLUME /var/www
 COPY index.php /var/www/
+VOLUME /var/www
 CMD ["bash"]
