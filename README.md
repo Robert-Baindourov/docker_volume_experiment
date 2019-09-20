@@ -19,6 +19,7 @@ Found Docker Docs explaning my initial experiment results. https://docs.docker.c
 
 
 >Tips for using bind mounts or volumes
+
 >If you use either bind mounts or volumes, keep the following in mind:
 
 >If you mount an empty volume into a directory in the container in which files or directories exist, these files or directories are propagated (copied) into the volume. Similarly, if you start a container and specify a volume which does not already exist, an empty volume is created for you. This is a good way to pre-populate data that another container needs.
